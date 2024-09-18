@@ -1,0 +1,87 @@
+body{
+  background-color: rgba(189, 142, 108, 0.97);
+}
+main{
+  margin-left:auto;
+  margin-right: auto;
+}
+.logo{
+  margin-left: 65px;
+  margin-top: 10px;
+}
+
+.pgname{
+  color: rgba(46, 22, 5, 1);
+  font-size: 60px ;
+  font-family: inherit;
+  margin-left: 50px;
+  margin-right: 40px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.pgname2{
+  line-height: 0.7;
+}
+.choices{
+  text-align: right;
+  margin-right: 10px;
+}
+
+.tagline{
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+  margin-top: 60px;
+  margin-left: 15px;
+}
+.pic{
+  width: 50%;
+  margin-right: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+.buyhere{
+  margin-left: 60px;
+  color: white;
+  background-color: rgba(107, 65, 34, 0.97);
+  height: 50px;
+  width: 130px;
+  font-size: 23px;
+  border-radius: 10px;
+  border-style: none;
+  stroke:black;
+  box-shadow: 5px 5px 15px rgba(47, 45, 45, 0.73);
+  margin-top: 50px;
+}
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  margin-right: 50px;
+}
+ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+ul li {
+  margin-bottom: 10px;
+}
+header {
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+
+}
